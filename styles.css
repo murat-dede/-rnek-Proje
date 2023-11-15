@@ -1,0 +1,89 @@
+body {
+    padding-top: 56px; /* Navbar'ın kapladığı alanı telafi etmek için */
+}
+
+header, nav {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+.logo {
+    max-width: 100%; /* Logo'nun genişliği, içerdiği kutucuğun genişliğine uyacak şekilde ayarlandı */
+    height: auto; /* Oranları korumak için otomatik yükseklik ayarı */
+    margin-left: 10px; /* Sol kenara 10 piksel boşluk bırakma */
+}
+
+.nav-link {
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.nav-link img {
+    max-width: 100%; /* Resmin genişliğini ayarla */
+    height: auto; /* Oranları korumak için otomatik yükseklik ayarı */
+    margin-right: 5px; /* Resimler arasında biraz boşluk bırakma */
+}
+
+    nav {
+        text-align: right; /* Nav içindeki bağlantıları sağa hizala */
+        display: flex;
+        gap: 32px;
+        justify-content: flex-end; /* Bağlantıları sağ üste hizala */
+        padding-right: 100px;
+    }
+    .Ham {
+        text-align: right;
+    }
+
+    .rectangle1 {
+        width: 1902px;
+        height: 1238px;
+background: var(--primary-black, #0B0B0B);
+flex-shrink: 0;
+
+
+
+    }
+    .rectangle1 h1 {
+     
+float: left;
+    color: var(--primary-white, #FFF);
+font-family: Roboto Condensed;
+font-size: 45px;
+font-style: normal;
+font-weight: 50;
+line-height: 100px; /* 102.83% */
+text-transform: uppercase;
+padding: 20px; 
+
+    }
+    .Group47354 {
+        width: 965px;
+height: 690.316px;
+float: right;
+display: flex;
+
+
+
+}
+    .Rectangle76 {
+        width: 402px;
+height: 690px;
+flex-shrink: 0;
+background-color: #D4292F;
+
+
+    }
+    .ComprehensiveVehicleInsurance {
+        color: var(--primary-white, #0a0606);
+        font-family: Roboto Condensed;
+        font-size: 106px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 109px; /* 102.83% */
+        text-transform: uppercase;
+    }
+    
