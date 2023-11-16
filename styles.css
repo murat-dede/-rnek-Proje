@@ -47,24 +47,35 @@ flex-shrink: 0;
 
 
     }
-    .rectangle1 h1 {
+    .rectangle1>h1 {
      
-float: left;
+        float: left;
     color: var(--primary-white, #FFF);
-font-family: Roboto Condensed;
-font-size: 45px;
-font-style: normal;
-font-weight: 50;
-line-height: 100px; /* 102.83% */
-text-transform: uppercase;
-padding: 20px; 
+    font-family: Roboto Condensed;
+    font-size: 115px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px;
+    text-transform: uppercase;
+    padding: 20px;
+    z-index: 100;
+    position: relative;
+    margin: 20px;
+    left: 220px;
+    width: 867px;
+    height: 343px;
+    flex-shrink: 0;
+    margin-bottom: 10px;
 
     }
     .Group47354 {
-        width: 965px;
-height: 690.316px;
-float: right;
-display: flex;
+        right: 0;
+    width: 965px;
+    height: 690.316px;
+    float: right;
+    display: flex;
+    position: absolute;
+
 
 
 
@@ -87,3 +98,125 @@ background-color: #D4292F;
         text-transform: uppercase;
     }
     
+.aciklama h2 {
+    color: var(--primary-white, #FFF);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    position: absolute;
+    left: 231px;
+    top: 843px;
+}
+:root {
+    --primary-white: #FFF;
+    --primary-blue: #007bff;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.detailed-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(gray);
+    color: var(--primary-white);
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    transition: background-color 0.3s ease;
+    top: 982px;
+    left: 241px;
+}
+
+.detailed-button::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 2px solid var(dark --primary-white);
+    border-radius: 7px;
+    z-index: -1;
+}
+
+.detailed-button:hover {
+    background-color: rgb(140, 168, 198);
+}
+.Rectangle83 {
+    position: absolute;
+    top: 1083px;
+    left: 239px;
+    border-radius: 0px 104px 0px 0px;
+    background: var(--primary-red, #E0353B);
+    z-index: 1;
+}
+.Baslik h2 {
+    color: var(--primary-white, #FFF);
+    font-family: Roboto Condensed;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    position: absolute;
+    top: 1000px;
+    right: 607px;
+}
+.baslikparagraf h1 {
+    color: #B9B9B9;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.32px;
+    position: absolute;
+    top: 1132px;
+    left: 992px;
+    height: auto;
+}
+.learnmore::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 2px solid var(dark --primary-white);
+    border-radius: 7px;
+    z-index: -3;
+}
+
+.learnmore {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(gray);
+    color: var(--primary-white);
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    transition: background-color 0.3s ease;
+    top: 1310px;
+    left: 1100px;
+}
+
+.learnmore:hover {
+    background-color: rgb(140, 168, 198);
+}
+   
