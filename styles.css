@@ -13,6 +13,8 @@ header, nav {
     max-width: 100%; 
     height: auto; 
     margin-left: 10px; 
+    position: absolute;
+    left: 96px;
 }
 
 .nav-link {
@@ -39,7 +41,7 @@ header, nav {
     }
 
     .rectangle1 {
-        width: 1902px;
+        width: 100%;
         height: 1238px;
 background: var(--primary-black, #0B0B0B);
 flex-shrink: 0;
@@ -47,13 +49,16 @@ flex-shrink: 0;
 
 
     }
+    html {
+        font-size: calc(11.1428571429px + 0.58035714285vw);
+      }
     .rectangle1>h1 {
      
         float: left;
     color: var(--primary-white, #FFF);
     font-family: Roboto Condensed;
-    font-size: 115px;
-    font-style: normal;
+    font-size: 3.188rem;
+    font-size: 5.188rem;
     font-weight: 400;
     line-height: 100px;
     text-transform: uppercase;
@@ -61,9 +66,9 @@ flex-shrink: 0;
     z-index: 100;
     position: relative;
     margin: 20px;
-    left: 220px;
-    width: 867px;
-    height: 343px;
+    left: 9.75rem;
+    width: 54.188rem;
+    height: 4.437999999999999rem;
     flex-shrink: 0;
     margin-bottom: 10px;
 
@@ -101,13 +106,13 @@ background-color: #D4292F;
 .aciklama h2 {
     color: var(--primary-white, #FFF);
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 1.0rem;
     font-style: normal;
     font-weight: 300;
-    line-height: 32px;
-    letter-spacing: 0.36px;
+    line-height: 2rem;
+    letter-spacing: 0.023rem;
     position: absolute;
-    left: 231px;
+    left: 12.313rem;
     top: 843px;
 }
 :root {
@@ -164,14 +169,14 @@ background-color: #D4292F;
 .Baslik h2 {
     color: var(--primary-white, #FFF);
     font-family: Roboto Condensed;
-    font-size: 50px;
+    font-size: 2.125rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-transform: uppercase;
     position: absolute;
-    top: 1000px;
-    right: 607px;
+    top: 42.5rem;
+    left: 43.938rem;
 }
 .baslikparagraf h1 {
     color: #B9B9B9;
@@ -670,3 +675,463 @@ line-height: 97px;
     color: inherit; 
     text-decoration: none; 
 }
+.rectangle77 {
+    left: 0px;
+    top: 3709px;
+    position: absolute;
+    width: 33%;
+    height: 569px;
+    flex-shrink: 0;
+    background: var(--primary-black, #0B0B0B);
+
+}
+.rectangle78 {
+    left: 33%;
+    top: 3709px;
+    position: absolute;
+    width: 33%;
+    height: 569px;
+    flex-shrink: 0;
+    background: var(--secondary-darkred, #B21A28);
+
+}
+.rectangle79 {
+    left: 66%;
+    top: 3709px;
+    position: absolute;
+    width: 34%;
+    height: 569px;
+    flex-shrink: 0;
+    background: var(--primary-black, #0B0B0B);
+
+}
+.rec77 {
+    position: absolute;
+    left: 48px;
+    top: 150px;
+}
+.rectangle77>h1 {
+    width: 343px;
+    color: var(--primary-white, #FFF);
+font-family: Roboto Condensed;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+position: relative;
+top:330px;
+left:48px;
+}
+.rectangle77>h2{
+    width: 315px;
+    color: var(--primary-white, #FFF);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+position: relative;
+top:362px;
+left:48px;
+
+}
+.rec78 {
+    position: absolute;
+    left:48px ;
+    top: 150px;
+}
+.rectangle78>h1 {
+    width: 343px;
+    color: var(--primary-white, #FFF);
+font-family: Roboto Condensed;
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+position: relative;
+top:330px;
+left:48px;
+}
+.rectangle78>h2{
+    width: 315px;
+    color: var(--primary-white, #FFF);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+position: relative;
+top:362px;
+left:48px;
+
+}
+.rec79 {
+    position: absolute;
+    left:48px ;
+    top: 150px;}
+    .rectangle79>h1 {
+        width: 343px;
+        color: var(--primary-white, #FFF);
+    font-family: Roboto Condensed;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+    top:330px;
+    left:48px;
+    }
+    .rectangle79>h2{
+        width: 315px;
+        color: var(--primary-white, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    position: relative;
+    top:362px;
+    left:48px;
+    
+    }
+    .frame041 {
+        display: flex;
+        width: 100%;
+        height: 135px;
+        padding: 0px 95px;
+        justify-content: space-between;
+        align-items: center;
+        flex-shrink: 0;
+        background: var(--primary-red, #E0353B);
+        position: absolute;
+        top: 4277px;
+    }
+    .frame041>h1{
+position: relative;
+color: var(--primary-white, #FFF);
+font-family: Roboto Condensed;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.52px;
+text-transform: uppercase;
+    }
+    .frame041>h2{
+        color: var(--primary-white, #FFF);
+font-family: Roboto Condensed;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.52px;
+text-transform: uppercase;
+        position: relative;
+    }
+    
+.frame35 {
+    display: inline-flex;
+    height: 514px;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex-shrink: 0;
+    background: var(--primary-black, #0B0B0B);
+    position: absolute;
+    top: 4400px;
+}
+.frame35>h1 {
+    color: var(--primary-white, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 200% */
+    position: relative;
+    left:95px ;
+    top: 62px;
+
+}
+.frame35>h2 {
+    color: var(--primary-white, #FFF);
+    width: 296px;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+position: relative;
+left: 95px;
+top: 86px;
+opacity: 0.6;
+}
+.fr35 {
+    position: relative;
+    top: 126px;
+    left: 95px;
+
+}
+.frame35>h3 {
+    width: 200px;
+    color: var(--primary-white, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    position: relative;
+    top: -140px;
+    left: 560px;
+}
+.frame35>h4 {
+    color: var(--primary-white, #FFF);
+    width: 188px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    position: relative;
+    top: -120px;
+    left: 560px;
+opacity: 0.6;
+}
+.frame35>h5 {
+    width: 200px;
+    color: var(--primary-white, #FFF);
+    position: relative;
+    top: -583px;
+    left: 894px;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px; /* 200% */
+}
+.frame35>h6 {
+    color: var(--primary-white, #FFF);
+    width: 188px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px;
+    position: relative;
+    top: -563px;
+    left: 895px;
+    opacity: 0.6;
+}
+.Rectangle80{
+    width: 419px;
+    height: 219px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    position: absolute;
+    top: 65px;
+    right: 95px;
+}
+.Rectangle80>h1{
+    color: var(--primary-white, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18.1px;
+    letter-spacing: 0.16px;
+    position: relative;
+    left: 32px;
+    top: 40px;
+}
+.Rectangle86 {
+    width: 357px;
+    height: 70px;
+    top: 53px;
+    left: 20px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--secondary-dark-grey, #212121);
+    position: relative;
+    overflow: hidden;
+}
+
+.mailpic {
+  
+    margin: 15px;
+    cursor: pointer;
+    position: absolute;
+    left: 290px;
+    top: 11px;
+}
+
+.email-input {
+    width: calc(100% - 40px);
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    padding: 0 20px;
+    font-size: 16px;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+.oyak {
+    position: absolute;
+    top: 4936px;
+    left: 95px;
+
+}
+.loyds {
+    position: absolute;
+    top: 258px;
+    left: 70px;
+    width: 189px;
+    height: 109px;
+}
+.mailsite {
+    position: absolute;
+    
+}
+.altkisim>h1 {
+    position: absolute;
+    top: 4952px;
+    color: var(--primary-black, #0B0B0B);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    opacity: 0.6;
+    right: 96px;
+}
+.Rectangle72 {
+    width: 1920px;
+    height: 232px;
+    flex-shrink: 0;
+    background: var(--primary-black, #0B0B0B);
+        
+}
+.Rectangle72>p1 {
+    color: var(--primary-white, #FFF);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    position: relative;
+    left: 110px;
+    top: 24px;
+}
+.Rectangle72>p {
+    color: rgba(217, 217, 217, 0.80);
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    position: relative;
+    left: 116px;
+    top: 24px;
+   
+}
+.Rectangle72>h1{
+    width: 379px;
+    color: var(--primary-white, #FFF);
+    font-family: Roboto Condensed;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    position: relative;
+    top: 15px;
+    left: 108px;
+}
+.Frame47342{
+    display: inline-flex;
+justify-content: center;
+align-items: flex-start;
+gap: 72px;
+position: absolute;
+left: 106px;
+top: 444px;
+}
+Rectangle72>p1,p{display: inline-block;}
+.Frame47342>p{
+    display: flex;
+    width: 166px;
+    height: 96px;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--primary-black, #0B0B0B);
+    font-family: Roboto Condensed;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 0; /* <p> etiketinin varsayılan marjini sıfırla */
+}
+.scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    max-width: 100%; /* Gerekirse maksimum genişliği ayarlayabilirsiniz */}
+    .Frame47342 span {
+        margin-right: 0px; /* Yazılar arasındaki boşluk */
+        display: inline-block;
+        font-family: Roboto Condensed;
+        font-size: 20px;}
+        #overlayed-img-container {
+            width: 531px;
+            height: 533px;
+            border-radius: 0 104px 0 0;
+            position: relative;
+            top: 860px;
+            left: 264px;
+          }
+          
+          #outer-overlay {
+            width: 22.298rem;
+            height:533.008px;
+            border-radius: 0 104px 0 0;
+            position: absolute;
+            background-color: rgba(224, 53, 59, 0.75);
+            z-index: 2;
+            top: 0px;
+            left: 0rem;
+          }
+          
+          #outer {
+            width: 22.298rem;
+height: 533px;
+            border-radius: 0 104px 0 0;
+            position: absolute;
+            z-index: 1;
+            top: 0px;
+            left: 0rem;
+          }
+          
+          #inner {
+            width: 22.298rem;
+height: 533px;
+            border-radius: 0 104px 0 0;
+            clip-path: path(
+              "M246.308 873.522C249.826 880.587 583.455 1024.24 988.031 975.181C1513.98 911.595 1665.65 696.698 1672.49 526.154C1680.31 331.864 1400.03 106.173 928.029 106.173C478.304 106.173 186.501 316.752 186.501 521.444C186.501 654.111 321.36 808.562 624.89 831.524C741.572 840.355 1040.02 817.786 1260.68 760.873C1158.85 809.74 1004.84 863.12 794.147 888.437C394.066 936.912 -41 807.188 -41 523.21C-41 231.382 408.138 0 930.374 0C1500.1 0 1898.62 261.016 1898.62 525.762C1898.62 784.227 1497.95 1034.65 870.958 1034.65C479.477 1034.65 249.826 878.428 246.308 873.522Z"
+            );
+            position: absolute;
+            z-index: 3;
+            top: 0px;
+            left: 0px;
+          }
+          #wide-overlay {
+            
+            position: absolute;
+            mix-blend-mode: luminosity;
+            top: -17px;
+            left: 0rem;
+            opacity: 0.3;
+          }
